@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>New Tab: EcoAssist</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Be Vietnam">
+  </head>
+  <body>
+
+    <div id = "date_time">
+      <div id="MyClockDisplay" class="clock" onload="showTime()" onload="showDate()" > </div>
+      <div id = "logo"><p>EcoAssist</p></div>
+      <div id="MyDateDisplay" class="date" 
+        onload="showDate()"></div>
+    </div>
+
+    <div id = "search">
+      <form action="https://google.com/search" method="get">
+        <input type="text" name="q" id = "searchBar" value="" placeholder="   Search Google or type a URL" title="Type in a search term" />
+      </form>
+    </div>
+
+    <div id = "tip2">
+      <p></p>
+    </div>
+
+    <div id = "org">
+      <div id = "clickOrg">
+        <div id = "orgHead">
+          <p>Click here to learn more:</p>
+        </div>
+        <div id = "orgName">
+          <p></p>
+        </div>
+      </div>
+      <div id = "orgLogo">
+        <p>  </p>
+      </div>
+    </div>
+    <form> 
+      <input id = "orgButton" type=button value=" ">
+    </form> 
+
+    <div id = "fact2">
+      <p></p>
+    </div>
+
+    <div id = "source">
+      <p></p>
+    </div>
+
+    <script src="script.js"></script>
+
+  </body> 
+</html>

@@ -1,0 +1,14 @@
+{
+    "name": "EcoAssist",
+    "version": "0.2",
+    "description": "Changes new tab window to one with environmental information and tips",
+    "manifest_version": 2,
+    "chrome_url_overrides" : { "newtab": "newtab.html"},
+    "icons": {
+        "16": "EcoAssist icon (version 2, attempt 2).png",
+        "32": "EcoAssist icon (version 2, attempt 2).png",
+        "48": "EcoAssist icon (version 2, attempt 2).png",
+        "128": "EcoAssist icon (version 2, attempt 2).png"
+    },
+    "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'"
+}
